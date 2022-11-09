@@ -16,7 +16,7 @@ You should always create a new branch, with an explicit name, and create a pull 
 - Launch the project using `make start` if you have Make installed, or `docker compose build && docker compose up -d` otherwise.
 - Go to `localhost:3000` to see a working example!
 - From there, you can add your own code and tests in the appropriate folders.
-⚠️ You are required to use Docker ⚠️
+⚠️ Docker is required ⚠️
 
 ## What do I need to check before making a PR?
 Make sure of the following :
