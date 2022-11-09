@@ -6,6 +6,7 @@ services:
     container_name: api-cnt
     restart: unless-stopped
     stdin_open: true
+    tty: true
     command: sh -c "yarn install && yarn dev"
     working_dir: /api
     ports:

@@ -19,3 +19,9 @@ ssh:
 
 lint:
 	$(EXEC) yarn lint
+
+husky:
+	$(EXEC) yarn install
+	cd api && npm run prepare
+	chmod ug+x ./api/.husky/*
+	chmod ug+x .git/hooks/*

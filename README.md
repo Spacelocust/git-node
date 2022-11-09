@@ -59,14 +59,15 @@ If you now request `localhost/your-route`, you will get a response containing 'T
 ## Make commands
 List of the available make commands.
 
-| Command  | Description                                          |
-|----------|------------------------------------------------------|
-| start    | Build the containers and run them in the background  |
-| up       | Run the containers in the background                 |
-| stop     | Stop the running containers                          |
-| down     | Stop and remove the containers                       |
-| ssh      | Run sh into the api container                        |
-| lint     | Run the linter in the api container                  |
+| Command  | Description                                            |
+|----------|--------------------------------------------------------|
+| start    | Build the containers and run them in the background    |
+| up       | Run the containers in the background                   |
+| stop     | Stop the running containers                            |
+| down     | Stop and remove the containers                         |
+| ssh      | Run sh into the api container                          |
+| lint     | Run the linter in the api container                    |
+| husky    | Install the husky pre-commit hooks ⚠️ REQUIRES NPM ⚠️  |
 
 ## How long until 1.0?
 See the [1.0 milestone](https://github.com/Spacelocust/git-node/milestone/1).
