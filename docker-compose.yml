@@ -12,4 +12,4 @@ services:
       - "5000:5000"
     volumes:
       - "./api:/api"
-      - "./.git:/git"
+      - "./.git:/git/.git/"

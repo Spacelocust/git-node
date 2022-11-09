@@ -10,7 +10,7 @@
     "start": "node index.js",
     "dev": "node --watch index.js",
     "lint": "eslint ./",
-    "prepare": "cd ../git && husky install"
+    "prepare": "cd ../git && husky install api/.husky"
   },
   "dependencies": {
     "cors": "^2.8.5",
