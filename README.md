@@ -19,7 +19,7 @@ This app allows you to build a very simple yet powerful API using node, here are
 ## How does it work?
 ### The config
 The config happens in `config/git-node.json`.
-```json
+```yaml
 {
     "cors": true,       # whether to use default CORS policies or not
     "fast": true,       # whether to be fast 🚀🚀🚀🚀🚀🚀 or not
