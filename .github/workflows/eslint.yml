@@ -27,5 +27,6 @@ jobs:
           --config .eslintrc.json
           --ext .js,.ts,.tsx
           --format @microsoft/eslint-formatter-sarif
-          
+
         continue-on-error: true
+        
