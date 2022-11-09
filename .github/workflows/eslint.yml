@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - '**'
+
 jobs:
   eslint:
     name: Run eslint scanning
@@ -20,9 +21,11 @@ jobs:
         run: |
           npm install eslint@8.10.0
           npm install @microsoft/eslint-formatter-sarif@2.1.7
+
       - name: Run ESLint
         run: npx eslint .
           --config .eslintrc.json
           --ext .js,.ts,.tsx
           --format @microsoft/eslint-formatter-sarif
+          
         continue-on-error: true
