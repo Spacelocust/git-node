@@ -2,7 +2,7 @@
 
 Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-Closes #(issue)
+Closes #(issue) | No issue linked.
 
 ## Type of change
 
@@ -19,6 +19,7 @@ Please describe the tests that you ran to verify your changes. It is way more li
 
 - [ ] Yes, I ran tests (describe below)
 - [ ] No, I did not include any test
+- [ ] No test needed for this change
 
 My test includes...
 
