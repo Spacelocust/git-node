@@ -16,6 +16,7 @@ You should always create a new branch, with an explicit name, and create a pull 
 - Launch the project using `make start` if you have Make installed, or `docker compose build && docker compose up -d` otherwise.
 - Go to `localhost:3000` to see a working example!
 - From there, you can add your own code and tests in the appropriate folders.
+⚠️ Docker is required ⚠️
 
 ## What do I need to check before making a PR?
 Make sure of the following :
@@ -24,6 +25,9 @@ Make sure of the following :
 - Your PR describes everything the reviewers need to know.
 - Your PR follows the [code of conduct](CODE_OF_CONDUCT.md).
 - The linter does not fail (or at least not because of your PR).
+
+## Commit to GitHub & Gitlab at once?
+Check out [this post](https://jigarius.com/blog/multiple-git-remote-repositories).
 
 ## Good to know
 Your PR will always be checked as soon as possible. You need to make sure you do everything you can do to make it easier to review it.

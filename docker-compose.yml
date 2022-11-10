@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  api-service:
+    image: node:18-alpine
+    container_name: api-cnt
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    command: sh -c "yarn install && yarn dev"
+    working_dir: /api
+    ports:
+      - "5000:5000"
+    volumes:
+      - "./api:/api"
