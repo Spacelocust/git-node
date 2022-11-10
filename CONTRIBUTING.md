@@ -26,6 +26,9 @@ Make sure of the following :
 - Your PR follows the [code of conduct](CODE_OF_CONDUCT.md).
 - The linter does not fail (or at least not because of your PR).
 
+## Commit to GitHub & Gitlab at once?
+Check out [this post](https://jigarius.com/blog/multiple-git-remote-repositories).
+
 ## Good to know
 Your PR will always be checked as soon as possible. You need to make sure you do everything you can do to make it easier to review it.
 
