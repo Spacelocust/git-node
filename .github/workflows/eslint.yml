@@ -23,6 +23,6 @@ jobs:
           yarn install
 
       - name: Run ESLint
-        run: yarn lint
-
-        continue-on-error: true
+        run: |
+          cd api
+          yarn lint
