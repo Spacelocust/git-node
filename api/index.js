@@ -6,7 +6,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
+// TODO add CSRF protection
+app.get('/', (req, res) => {
     res.send('Hey, im a super powerfull 💪💪, blazingly fast 🚀🚀, node.js API 🔥🔥. 100% open source.');
 });
 
